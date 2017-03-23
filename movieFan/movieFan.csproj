@@ -322,6 +322,12 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="images\cinFilmMovie.jpg" />
+    <Content Include="images\heartMovieFan.jpg" />
+    <Content Include="images\masterMovieFan.jpg" />
+    <Content Include="images\movieFan.jpg" />
+    <Content Include="images\movieFanMontra.jpeg" />
+    <Content Include="images\ticket.jpg" />
     <Content Include="obj\Debug\movieFan.csproj.FileListAbsolute.txt" />
     <Content Include="obj\Debug\movieFan.dll" />
     <Content Include="obj\Debug\movieFan.pdb" />
