@@ -1,4 +1,5 @@
-﻿using System;
+﻿using movieFan.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -28,11 +29,21 @@ namespace movieFan.Controllers
             return View();
         }
 
-        public ActionResult MovieCollection()
-        {
-            ViewBag.Message = "movie collection goes here with cover art, title name, three top actors and then a movie description.  pagination and search at the bottom of the page";
+        
+        
+        //NOT USED CODE  kept for reference
+        //public ActionResult MovieCollection()
+        //{
+        //    ViewBag.Message = "movie collection goes here with cover art, title name, three top actors and then a movie description.  pagination and search at the bottom of the page";
 
-            return View();
-        }
+        //    return View();
+        //}
+
+        //public ActionResult MovieIndex()
+        //{
+        //    ViewBag.Message = "list of movies";
+
+        //    return View("~/Views/Movie/Details.cshtml");
+        //}
     }
 }
