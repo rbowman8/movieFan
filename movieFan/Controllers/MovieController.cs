@@ -54,7 +54,7 @@ namespace movieFan.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,MovieName,ReleaseDate,Director,Actors,Description,Like")] Movie movie)
+        public ActionResult Create([Bind(Include = "Id,MovieName,ReleaseDate,Director,Writers,Actors,Description,Like")] Movie movie)
         {
             if (ModelState.IsValid)
             {
@@ -86,7 +86,7 @@ namespace movieFan.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,MovieName,ReleaseDate,Director,Actors,Description,Like")] Movie movie)
+        public ActionResult Edit([Bind(Include = "Id,MovieName,ReleaseDate,Director,Writers,Actors,Description,Like")] Movie movie)
         {
             if (ModelState.IsValid)
             {

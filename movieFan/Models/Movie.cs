@@ -38,12 +38,12 @@ public class Movie
     public class MovieDBContext : DbContext
     {
 
-        //public class MovieDBContext()
-        //{
-        //    //Database.SetInitializer(new DropCreateDatabaseIfModelChanges<MovieDBContext>());
+        public MovieDBContext()
+        {
+              Database.SetInitializer(new DropCreateDatabaseIfModelChanges<MovieDBContext>());
         //    //Database.SetInitializer(new CreateDatabaseIfNotExist<MovieDBContext>());
         //    Database.SetInitializer(new DropCreateDatabaseAlways<MovieDBContext>());
-        //}
+        }
 
         public DbSet<Movie> Movies { get; set; }
         public DbSet<Studio> Studios { get; set; }
