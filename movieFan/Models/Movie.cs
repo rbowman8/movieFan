@@ -4,7 +4,12 @@ using System.Data.Entity;
 
 namespace movieFan.Models
 {
-    public class Movie
+
+    
+
+
+
+public class Movie
     {
 
         public int Id { get; set; }
@@ -29,7 +34,7 @@ namespace movieFan.Models
         public string City { get; set; }
         public string Name { get; set; }
     }
-    
+
     public class MovieDBContext : DbContext
     {
 
@@ -43,6 +48,9 @@ namespace movieFan.Models
         public DbSet<Movie> Movies { get; set; }
         public DbSet<Studio> Studios { get; set; }
     }
+
+
+   
 
     
 }
