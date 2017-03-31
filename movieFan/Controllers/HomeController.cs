@@ -29,15 +29,15 @@ namespace movieFan.Controllers
             return View();
         }
 
-        
-        
-        //NOT USED CODE  kept for reference
-        //public ActionResult MovieCollection()
-        //{
-        //    ViewBag.Message = "movie collection goes here with cover art, title name, three top actors and then a movie description.  pagination and search at the bottom of the page";
 
-        //    return View();
-        //}
+
+
+        public ActionResult MovieCollection()
+        {
+            ViewBag.Message = "This is your user homepage.  Under Construction";
+
+            return View();
+        }
 
         //public ActionResult MovieIndex()
         //{
